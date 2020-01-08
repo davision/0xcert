@@ -1,5 +1,5 @@
 module.exports = {
-  title: '0xcert Docs',
+  title: '0xcert Docs - v1.x',
   description: 'Create, own, and validate unique assets on the blockchain. 0xcert is the first open protocol built to support the future of digital assets, powered by the non-fungible tokens.',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
@@ -27,11 +27,12 @@ module.exports = {
     repo: '0xcert/framework',
     repoLabel: 'GitHub',
     docsRepo: '0xcert/framework',
-    docsDir: 'docs',
+    docsDir: 'docs-v1',
     docsBranch: 'master',
     editLinks: true,
     editLinkText: 'Help us improve this page.',
     nav: [
+      { text: 'v2.0', link: 'https://docs.0xcert.org' },
       { text: '0xcert Home', link: 'https://0xcert.org' },
     ],
     sidebar: [
